@@ -1,0 +1,415 @@
+@media screen and (max-width: 1366px) {
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #002348;
+}
+
+header nav a.nav-link {
+    background-color: #fff;
+    color: #000 !important;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 6px;
+    margin: 0 5px;
+    display: inline-block;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    header nav a.nav-link.active,
+    header nav a.nav-link:hover {
+        background-color: #F4681B !important;
+        color: #fff !important;
+    }
+
+    .medical-attention-section {
+        background-image: url('/assets/hero-2.jpg');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        padding: 100px 0;
+        height: 768px;
+    }
+
+    .medical-attention-section .container {
+        margin-top: 18%;
+    }
+
+    .medical-attention-section .container h1 {
+        margin-left: 25%;
+        font-weight: 650;
+        margin-bottom: 20px;
+    }
+
+    .medical-attention-section .container p { 
+        margin-left: -30%;
+        margin-bottom: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    button.btn-warning {
+        margin-left: 30%;
+        font-size: 18px;
+        background-color: #F4681B;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 9px 35px;
+    }
+
+    .motivation-section .message-box {
+        background-color: #003F7D;
+        color: #fff;
+        border-radius:22px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px !important;
+        font-size: 1.2rem;
+        min-height: 160px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .large-box {
+        height: 200px;
+        max-width: 300px;
+        border-radius: 22px;
+        margin-top: -20px;
+    }
+
+    .motivation-section .message-box{
+        display: flex !important;
+        justify-content: center;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .motivation-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 120px;
+    }
+
+
+    .about-us-section {
+        background-repeat: no-repeat;
+        color: #ffffff;
+        height: 150vh;
+        bottom: 0;
+    }
+
+    .about-us-image {
+        height: 120vh !important;
+        bottom: 0;
+        width: 65%; /* Hace la imagen más grande */
+        max-width: 500px; /* Controla el ancho máximo para pantallas grandes */
+    }
+
+    .about-us-section .container h2 {
+        margin-top: 60%;
+    }
+
+    .about-us-section .container {
+        margin-left: 20%;
+    }
+
+    .mission-vision-section {
+        padding: 40px 10%; /* Agrega un margen proporcional a los costados del contenedor */
+    }
+
+
+
+    .mission-box, .vision-box, .values-box {
+        background-color: #EBEBEB; /* Fondo gris claro */
+        color: #000; /* Texto en negro */
+        padding: 20px;
+        border-radius: 25px;
+        margin: 0 30px ; /* Centrará el bloque y agregará espacio arriba y abajo */
+        margin-left: 5px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        text-align: left;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra ligera */
+        max-width: 600px; /* Limita el ancho de cada caja */
+    }
+
+    .mission-box h3, .mission-box p {
+        padding: 0 50px;
+    }
+
+    .vision-box h3, .vision-box p {
+        padding: 0 50px;
+    }
+
+    .values-box h3, .values-box p {
+        padding: 0 50px;
+    }
+
+
+    /* Hover effect para las cajas */
+    .mission-box:hover, .vision-box:hover, .values-box:hover {
+        transform: scale(1.05); /* Agranda la caja ligeramente */
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+        background-color: #003F7D; /* Fondo más oscuro al hacer hover */
+        color: #fff; /* Texto en blanco al hacer hover */
+    }
+
+    .values-section h2 {
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .values-section {
+        display: flex;
+        justify-content: center; /* Centra el contenedor horizontalmente */
+
+    }
+
+    .values-box {
+        background-color: #EBEBEB; /* Fondo gris claro */
+        color: #000; /* Texto negro */
+        border-radius: 8px;
+        width: 100%; /* Ocupa el 100% de la columna asignada */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: left;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra ligera */
+        margin-left: 9px;
+    }
+
+    .values-box h3, .mission-box h3, .vision-box h3 {
+        text-align: center;
+        margin-bottom: 13px;
+    }
+
+    .values-box p, .mission-box p, .vision-box p {
+        font-size: 14px;
+        line-height: 1.1;
+        font-weight: 300;
+    }
+
+    .services-section {
+        background-image: url('/assets/background-gray.png');
+    }
+
+    
+
+    .services-section .container h5 span {
+        font-weight: 300;
+
+    }
+
+    .services-section .service-box {
+        background-color: #003366;
+        color: #fff;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .services-section .container {
+        color: #003F7D;
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .services-section .container h2 {
+        margin-bottom: 80px;
+        font-weight: 400;
+    }
+
+    .services-section .container h2 span {
+        color: #F4681B;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+
+
+    .services-section h2 {
+        font-size: 20px;
+        color: #003366;
+        margin-bottom: 20px;
+    }
+    
+
+    .services-section h5 {
+        font-size: 20px;
+    }
+    
+    .services-section .container h5 span {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 0.5; /* Ajusta según lo necesario */
+    }
+    
+    
+
+   
+    
+    .service-card {
+        position: relative;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+    }
+    
+    .service-card:hover {
+        transform: scale(1.05);
+
+    }
+    
+    
+    
+    .service-title {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 21px 0;
+        color: #000; /* Texto en blanco */
+        font-size: 1.1rem;
+        font-weight: bold;
+
+    }
+    
+
+    .about-us-section .container {
+        justify-content: left;
+    }
+    
+    /* Estilos para la caja de información adicional */
+    /* Estilos para la caja de información adicional */
+    .additional-info-box {
+        background-color: #003F7D; /* Fondo azul oscuro */
+        color: #ffffff; /* Texto blanco */
+        border-radius: 12px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+        max-width: 900px;
+        margin: 0 auto; /* Centrar horizontalmente */
+        padding: 20px;
+        text-align: left;
+    }
+
+    .additional-info-box h5 {
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0;
+    }
+
+    .additional-info-box p {
+        color: #c0c0c0;
+        margin: 0;
+    }
+
+    .paw-icon {
+        width: 50px; /* Tamaño de la imagen de la patita */
+        height: 50px;
+    }
+
+    .service-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+
+    button.btn-warning {
+        font-size: 18px;
+        background-color: #F4681B;
+        color: #fff;
+        border: none;
+        padding: 8px 30px; /* Añade un padding para darle un tamaño más adecuado */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto; /* Esto centrará el botón horizontalmente */
+    }
+
+    .footer {
+        background-image: url('/assets/background-3.png');
+        background-repeat: no-repeat;
+        color: #ffffff;
+        margin-top: -3%;
+    }
+
+   .footer .container {
+    margin-top: 4%;
+   }
+    
+   .footer .container .list-unstyled {
+    margin-right: 40px;
+   }
+
+   .footer ul {
+    margin-left: 70px !important;
+    text-align: left;
+   }
+  
+    
+    .footer ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    .footer-link {
+        color: #ffffff;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .footer-link:hover {
+        text-decoration: underline;
+    }
+    
+    .footer p, .footer a {
+        font-size: 0.9rem;
+    }
+    
+    
+    .social-icons a {
+        color: #002348;
+        margin: 0 10px;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+    .social-icons a img {
+        width: 30px; /* Ajusta el tamaño de los íconos */
+        height: 30px;
+        transition: transform 0.3s ease; /* Agrega una transición para el hover */
+    }
+    
+    .social-icons a:hover img {
+        transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el cursor */
+        filter: brightness(0.8); /* Oscurece ligeramente el ícono */
+    }
+    
+    
+    .footer .social-icons {
+        margin-top: 10px;
+    }
+    
+    .footer hr {
+        border-color: rgba(255, 255, 255, 0.2);
+    }
+
+
+    
+    
+
+
+}

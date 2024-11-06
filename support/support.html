@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albergue Temporal - Laika</title>
+    <link rel="stylesheet" href="support.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación -->
+    <header class="text-white py-3" style="background-color: #002348;">
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="d-flex align-items-center">
+                <img src="/assets/logo-horizontal.png" alt="Laika Logo" style="height: 80px; margin-right: 90px;">
+                <nav class="d-flex gap-3">
+                    <a href="/home/home.html" class="nav-link mx-2">Inicio</a>
+                    <a href="/about/about.html" class="nav-link mx-2">Nosotros</a>
+                    <a href="/adoption/adoption.html" class="nav-link mx-2">Adopción</a>
+                    <a href="support.html" class="nav-link mx-2 active">Apoyanos</a>
+                    <a href="/contact/contact.html" class="nav-link mx-2">Contáctanos</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Sección Principal -->
+    <section class="hero-section text-center text-white py-5">
+        <div class="container">
+            <h1>Albergue temporal</h1>
+            <p class="lead">Proporcionamos refugio temporal para animales <br> que necesitan un lugar seguro mientras se recuperan.</p>
+            <button class="btn btn-warning">Contáctanos</button>
+        </div>
+    </section>
+
+    <!-- Requisitos de Adopción -->
+    <section class="adoption-requirements py-5">
+        <div class="container">
+            <h3>Requisitos para poder <span class="text-warning">adoptar</span></h3>
+            <ul class="list-unstyled mt-4">
+                <li><img src="/assets/paw2.png" alt="Icono de huella" class="paw-icon"> <strong>Ser mayor de 21 años.</strong> <br>Al momento de presentarte para adoptar una mascota presenta tu identificación.</li>
+                <li><img src="/assets/paw2.png" alt="Icono de huella" class="paw-icon"> <strong>Tener una vivienda adecuada.</strong> <br>Es importante que cuentes con casa propia para el cuidado de las mascotas en caso de vivir en un departamento.</li>
+                <li><img src="/assets/paw2.png" alt="Icono de huella" class="paw-icon"> <strong>Contar con tiempo y disponibilidad.</strong> <br>Es importante que tengas el tiempo necesario para atender las necesidades de tu mascota.</li>
+                <li><img src="/assets/paw2.png" alt="Icono de huella" class="paw-icon"> <strong>Firmar un contrato de adopción.</strong> <br>Al firmar este contrato te comprometes a brindar los cuidados que requieren las mascotas y seas responsable con este rol.</li>
+                <li><img src="/assets/paw2.png" alt="Icono de huella" class="paw-icon"> <strong>Seguimiento y cuidado.</strong> <br>A todos los que adoptan a las mascotas del centro les pedimos que periódicamente nos envíen fotos de los mismos para asegurar su bienestar.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Testimonios de Voluntarios -->
+    <section class="volunteer-testimonials py-5" style="background-color: #003366;">
+        <div class="container text-center text-white">
+            <h3>Lo que dicen nuestros <span class="text-warning">voluntarios</span></h3>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <img src="/assets/volunteer1.jpg" alt="Ruth Gonzales" class="img-fluid rounded-circle mb-3">
+                        <h5>Ruth Gonzales</h5>
+                        <p>Ser voluntaria en Laika ha sido una experiencia transformadora.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <img src="/assets/volunteer2.jpg" alt="Andrea Mendoza" class="img-fluid rounded-circle mb-3">
+                        <h5>Andrea Mendoza</h5>
+                        <p>Ayudar a estos animales es un regalo de amor.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial">
+                        <img src="/assets/volunteer3.jpg" alt="Gustavo Vergara" class="img-fluid rounded-circle mb-3">
+                        <h5>Gustavo Vergara</h5>
+                        <p>Encontré una familia en el equipo de Laika.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Voluntariado -->
+    <section class="volunteer-form py-5">
+        <div class="container">
+            <form class="mt-4 mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Correo" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Número de contacto" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Edad" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning w-100">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Donaciones -->
+    <section class="donation-section py-5">
+        <div class="container text-center">
+            <h3>Apóyanos realizando tu <span class="text-warning">donación</span></h3>
+            <p class="lead">Tu ayuda puede marcar la diferencia en la vida de nuestros animales rescatados.</p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p>Los fondos se destinan a:</p>
+                    <ul class="list-unstyled">
+                        <li>Mantenimiento de nuestras instalaciones</li>
+                        <li>Cuidado de la salud de los animales</li>
+                        <li>Alimentos necesarios</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="/assets/qrcode.png" alt="QR para donación" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Pie de Página -->
+    <footer class="footer text-white text-center py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <img src="/assets/logo.png" alt="Laika Logo" class="footer-logo" style="height: 150px;">
+                    <p class="mt-2">Centro de rescate animal Laika</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="footer-link">Inicio</a></li>
+                        <li><a href="#" class="footer-link">Nosotros</a></li>
+                        <li><a href="#" class="footer-link">Adopción</a></li>
+                        <li><a href="#" class="footer-link">Apóyanos</a></li>
+                        <li><a href="#" class="footer-link">Contáctanos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-start">
+                    <p><img src="/assets/icons/mail.svg" alt=""><i class="fas fa-envelope"></i> centroderescateanimallaika@gmail.com</p>
+                    <p><img src="/assets/icons/location.svg" alt=""><i class="fas fa-map-marker-alt"></i> Alto Irpavi, Av. Circunvalación Ciudad <br> La Paz, Bolivia° 100</p>
+                    <p><img src="/assets/icons/icono-whatsapp.svg" alt=""><i class="fas fa-phone-alt"></i> 76708785</p>
+                </div>
+            </div>
+            <hr class="my-4">
+            <!-- Línea divisoria -->
+            <hr class="footer-divider mt-4 mb-3">
+            <!-- Iconos de redes sociales -->
+            <div class="social-icons mt-3">
+                <a href="#" target="_blank">
+                    <img src="/assets/icons/icono-youtube.svg" alt="Youtube" width="24" height="24">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="/assets/icons/x.svg" alt="X" width="24" height="24">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="/assets/icons/icono-tiktok.svg" alt="TikTok" width="24" height="24">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="/assets/icons/icono-facebook.svg" alt="Facebook" width="24" height="24">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="/assets/icons/icono-whatsapp.svg" alt="WhatsApp" width="24" height="24">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="/assets/icons/icono-instagram.svg" alt="Instagram" width="24" height="24">
+                </a>
+                <!-- Agrega más iconos según sea necesario -->
+            </div>
+            <!-- Derechos reservados -->
+            <p class="mt-3">Centro de rescate animal Laika - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.
+
+    

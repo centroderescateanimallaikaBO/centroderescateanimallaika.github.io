@@ -1,0 +1,370 @@
+/* Fondo del navbar */
+header {
+    background-color: #002348; 
+}
+
+/* Estilo base para los enlaces del navbar */
+header nav a.nav-link {
+    background-color: #fff; 
+    color: #000 !important; 
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    width: 120px;
+    height: 34px; 
+    line-height: 34px; 
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 0 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para el enlace activo ("Inicio") */
+header nav a.nav-link.active {
+    background-color: #F4681B !important; 
+    color: #fff !important; 
+}
+
+/* Hover para todos los enlaces */
+header nav a.nav-link:hover {
+    background-color: #F4681B; 
+    color: #fff !important; 
+}
+
+
+.container .icon-container img {
+    width: 70px;
+}
+
+.container .card-title img {
+    width: 100px;
+}
+
+.container .card {
+    width: 100%;
+    justify-content: center;
+    
+}
+
+/* Estilos de la Sección Hero */
+.hero-section {
+    background-color: #003366; 
+    background-image: url('../assets/hero-1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 768px;
+    width: 100%;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-section .container {
+    margin-top: 50px;
+}
+
+.hero-section .container h1{
+    font-weight: 650;
+    margin-bottom: 20px;
+}
+
+.hero-section .container p {
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+button.btn-warning {
+    font-size: 18px;
+    background-color: #F4681B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 9px 35px;
+}
+
+.stats-section {
+    color: #000; 
+    padding: 40px 0;
+    height: 300px;
+}
+
+.stats-section .display-5 {
+    font-size: 2.5rem;
+    color: #000; 
+}
+
+.stats-section p {
+    color: #000;
+}
+
+
+.adoption-section {
+    background-image: url('/assets/background-adoption.png') ;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+
+.adoption-section h2 {
+    color: #002147;
+    margin-bottom: 110px;
+}
+
+
+.adoption-section .card {
+    border: none;
+    height: 70vh;
+}
+
+.adoption-section .card img {
+    width: 70%
+}
+
+.success-stories .card {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+/* Efecto Flip para las tarjetas */
+.flip-card {
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flip-card-front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.flip-card-back {
+    background-color: #f8faf8; /* Color de fondo para el reverso */
+    color: black;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilos para la sección de Historias de Éxito */
+.success-stories {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.success-stories .card {
+    background-color: #002147;
+    border-radius: 10px;
+}
+
+.success-stories h2 {
+    font-size: 2rem;
+    color: #002147;
+}
+
+.story-card {
+    background-color: #003366;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Evita que los elementos sobresalgan */
+}
+
+.story-card:hover {
+    transform: translateY(-10px);
+}
+
+.story-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 180px; /* Ajusta para que las imágenes tengan un tamaño uniforme */
+    object-fit: cover; /* Recorta la imagen para ajustarse */
+}
+
+.story-card .card-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #F4681B;
+    margin-top: 15px;
+}
+
+.story-card .card-text {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 10px;
+    text-align: justify; /* Para alinear el texto */
+}
+
+/* Separación entre imágenes y descripción en las tarjetas */
+.story-image.mb-3 {
+    margin-bottom: 15px;
+}
+
+/* Sección de Patrocinadores */
+.sponsors-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    position: relative;
+}
+
+.sponsors-section h2 {
+    font-size: 2rem;
+    color: #002348;
+    margin-bottom: 1rem;
+}
+
+.sponsors-section p {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.sponsors-section button {
+    font-size: 1rem;
+    background-color: #F4681B;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.sponsor-icon {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sponsor-icon img {
+    width: 200px !important;
+    height: auto;
+    filter: brightness(0) invert(1); /* Para hacer que las imágenes sean blancas en fondos oscuros */
+}
+
+/* Fondo y forma de la sección */
+.sponsors-section::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #f8f9fa;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    z-index: -1;
+}
+
+
+.footer {
+    background-image: url('/assets/background-3.png');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin-top: -3%;
+}
+
+.footer .container {
+margin-top: 4%;
+}
+
+.footer .container .list-unstyled {
+margin-right: 40px;
+}
+
+.footer ul {
+margin-left: 70px !important;
+text-align: left;
+}
+
+
+.footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer p, .footer a {
+    font-size: 0.9rem;
+}
+
+
+.social-icons a {
+    color: #002348;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+.social-icons a img {
+    width: 30px; /* Ajusta el tamaño de los íconos */
+    height: 30px;
+    transition: transform 0.3s ease; /* Agrega una transición para el hover */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el cursor */
+    filter: brightness(0.8); /* Oscurece ligeramente el ícono */
+}
+
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.sponsor-icon img {
+    width: 60px;
+    height: auto;
+    filter: brightness(1.2); /* Aumenta el brillo sin invertir el color */
+}
+
+
+/* Ajustes para responsive */
+@media (max-width: 768px) {
+    .sponsors-section .sponsor-icon {
+        margin-bottom: 20px;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .col-md-6 {
+        margin-bottom: 20px;
+    }
+}

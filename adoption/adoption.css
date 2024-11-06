@@ -1,0 +1,356 @@
+/* Fondo del navbar */
+header {
+    background-color: #002348; /* Azul oscuro */
+}
+
+/* Estilo base para los enlaces del navbar */
+header nav a.nav-link {
+    background-color: #fff; /* Fondo blanco para los enlaces por defecto */
+    color: #000 !important; /* Texto negro */
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    width: 120px; /* Ancho fijo para todos los enlaces */
+    height: 34px; /* Altura fija para todos los enlaces */
+    line-height: 34px; /* Alinea el texto verticalmente */
+    border-radius: 6px;
+    text-decoration: none;
+    margin: 0 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Estilo para el enlace activo ("Inicio") */
+header nav a.nav-link.active {
+    background-color: #F4681B !important; /* Fondo naranja */
+    color: #fff !important; /* Texto blanco */
+}
+
+/* Hover para todos los enlaces */
+header nav a.nav-link:hover {
+    background-color: #F4681B; /* Tono naranja oscuro en hover */
+    color: #fff !important; /* Texto blanco en hover */
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #002348;
+}
+
+header nav a.nav-link.active {
+    background-color: #F4681B;
+    color: #fff;
+}
+
+.adoption-hero {
+    background-color: #003366;
+    background-image: url('/assets/hero-3.jpg'); /* Asegúrate de tener la imagen */
+    background-size: cover;
+    background-position: center;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+/* Requisitos de Adopción */
+.adoption-requirements {
+    text-align: left;
+}
+
+.adoption-requirements h3 {
+    font-size: 2rem;
+    color: #002348;
+    text-align: center;
+}
+
+.adoption-requirements ul {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.adoption-requirements ul li {
+    font-size: 1.1rem;
+    margin: 15px 0;
+    padding-left: 40px; /* Espacio para el icono */
+    position: relative;
+    line-height: 1.5;
+}
+
+.adoption-requirements ul li img.paw-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.adoption-requirements ul li strong {
+    color: #003366; /* Color para el texto en negrita */
+}
+
+.adoption-requirements ul li span {
+    color: #555; /* Color para el texto de descripción */
+}
+
+/* Estructura del flip card */
+.flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px; /* Esto permite el efecto 3D */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Gira la tarjeta */
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+.adopt-section .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flip-card-front {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flip-card-back {
+    background-color: #002348;
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-info h5 {
+    margin: 10px 0 5px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    width: 100%;
+}
+
+.card-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+.btn-warning {
+    background-color: #FFA500;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.description-card {
+    width: 250px;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.flip-card-front .card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.flip-card-back {
+    background-color: #fff;
+    color: #003366;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid #002348;
+}
+
+.flip-card-back p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.flip-card-back .btn-warning {
+    background-color: #FFA500;
+    border: none;
+    font-weight: bold;
+}
+
+/* Estilo del contenedor del formulario */
+.volunteer-form form {
+    background-color: #003F7D; /* Fondo azul */
+    padding: 30px 70px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto de profundidad */
+}
+
+/* Estilo de los campos del formulario */
+.volunteer-form .form-control {
+    border: none; /* Quita el borde para que se vea más limpio */
+    border-radius: 4px;
+    height: 50px; /* Ajusta la altura para que sea uniforme */
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilo del botón de enviar */
+.volunteer-form .btn-warning {
+    background-color: #F4681B; 
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    height: 35px;
+    width: 36% !important;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.volunteer-form .btn-warning:hover {
+    background-color: #e35700; 
+    color: #fff;
+}
+
+/* Ajuste para el título del formulario */
+.volunteer-form h3 {
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+
+
+.footer {
+    background-image: url('/assets/background-3.png');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin-top: -3%;
+}
+
+.footer .container {
+margin-top: 4%;
+}
+
+.footer .container .list-unstyled {
+margin-right: 40px;
+}
+
+.footer ul {
+margin-left: 70px !important;
+text-align: left;
+}
+
+
+.footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer p, .footer a {
+    font-size: 0.9rem;
+}
+
+
+.social-icons a {
+    color: #002348;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+.social-icons a img {
+    width: 30px; /* Ajusta el tamaño de los íconos */
+    height: 30px;
+    transition: transform 0.3s ease; /* Agrega una transición para el hover */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño del ícono al pasar el cursor */
+    filter: brightness(0.8); /* Oscurece ligeramente el ícono */
+}
+
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, 0.2);
+}
