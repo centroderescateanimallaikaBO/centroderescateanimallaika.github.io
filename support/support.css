@@ -995,10 +995,10 @@ button.btn-warning {
 
 
 /* Estilos de pantalla para 360px */
-@media (max-width: 361px) {
+@media (max-width: 391px) {
 
     body, html {
-        max-width: 360px; /* Limita el ancho máximo a 360px */
+        max-width: 390px; /* Limita el ancho máximo a 360px */
         overflow-x: hidden; /* Evita el desbordamiento horizontal */
         margin: 0;
         padding: 0;
@@ -1137,8 +1137,8 @@ button.btn-warning {
     .adoption-hero .btn {
         font-size: 16px !important;
         padding: 6px 14px !important;
-        margin-left: 55px !important;
-        margin-top: 35px !important;
+        margin-left: 40px !important;
+        margin-top: 25px !important;
     }
 
 
@@ -1183,6 +1183,8 @@ button.btn-warning {
 
     .testimonials-section {
         background-image: url('/assets/background-blue360.png');
+        background-size: cover;
+        background-position: top;
     }
     
 
@@ -1276,7 +1278,7 @@ button.btn-warning {
         padding: 50px 20px;
         margin-bottom: 0;
         width: 120%;
-        margin-left: -25px !important;
+        margin-left: -28px !important;
     }
 
     .volunteer-form form textarea.form-control {
@@ -1305,7 +1307,7 @@ button.btn-warning {
         width: 200px;
         margin-top: 0px;
         margin-left: 0px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 
     .donation-section .container {
@@ -1333,7 +1335,7 @@ button.btn-warning {
 
     .donation-section ul {
         list-style: none;
-        padding: 0;
+        padding: 20px;
     }
 
     .donation-section ul li {
@@ -1370,7 +1372,8 @@ button.btn-warning {
         background-repeat: no-repeat;
         background-size: cover !important;
         background-position: left;
-        margin-top: 80% !important;
+        margin-top: 50% !important;
+        
     }
     
 

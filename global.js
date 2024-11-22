@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Cambia las imágenes automáticamente cada 1.5 segundos en pantallas de 360px o menos
     function rotateImages() {
-        if (window.innerWidth <= 360) {
+        if (window.innerWidth <= 400) {
             serviceImages.forEach((img, idx) => {
                 img.src = images[idx][currentIndex % images[idx].length];
             });
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentIndex = 0;
 
     function rotateImages() {
-        if (window.innerWidth <= 360) {
+        if (window.innerWidth <= 400) {
             // Oculta todas las tarjetas de servicio
             serviceCards.forEach((card, idx) => {
                 card.style.display = (idx === currentIndex) ? "block" : "none";

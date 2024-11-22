@@ -1056,7 +1056,7 @@ button.btn-warning {
 
 
     /* Estilos de pantalla para 360px */
-@media (max-width: 361px) {
+@media (max-width: 391px) {
 
     /* Estilos generales para las cajas de mensajes */
 .motivation-section .message-box {
@@ -1069,7 +1069,7 @@ button.btn-warning {
 }
   
     body, html {
-        max-width: 360px; /* Limita el ancho máximo a 360px */
+        max-width: 390px; /* Limita el ancho máximo a 360px */
         overflow-x: hidden; /* Evita el desbordamiento horizontal */
         margin: 0;
         padding: 0;
@@ -1246,7 +1246,7 @@ button.btn-warning {
     }
 
     .about-us-image {
-        width: 90%; /* Hace la imagen más grande */
+        width: 80%; /* Hace la imagen más grande */
         height: 45vh !important;
         max-width: 500px; /* Controla el ancho máximo para pantallas grandes */
         margin-left: -52px;
@@ -1381,6 +1381,7 @@ button.btn-warning {
         width: 100%; /* Asegura que las tarjetas se ajusten al contenedor */
         max-width: 320px; /* Limita el tamaño máximo para pantallas pequeñas */
         height: auto; /* Asegura que la altura sea dinámica */
+        margin-left: 18px;
     }
     
    

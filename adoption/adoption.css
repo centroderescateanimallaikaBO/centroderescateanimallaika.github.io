@@ -890,10 +890,10 @@ text-align: left;
 
 
 /* Estilos de pantalla para 360px */
-@media (max-width: 361px) {
+@media (max-width: 391px) {
 
   body, html {
-      max-width: 360px; /* Limita el ancho máximo a 360px */
+      max-width: 390px; /* Limita el ancho máximo a 360px */
       overflow-x: hidden; /* Evita el desbordamiento horizontal */
       margin: 0;
       padding: 0;
@@ -1024,7 +1024,7 @@ text-align: left;
   .hero-section .btn  {
       font-size: 16px !important;
       padding: 6px 14px !important;
-      margin-left: 96px !important;
+      margin-left: 0px !important;
 
   }
 
@@ -1032,8 +1032,8 @@ text-align: left;
   .adoption-hero .btn {
       font-size: 16px !important;
       padding: 6px 14px !important;
-      margin-left: 55px !important;
-      margin-top: 35px !important;
+      margin-left: 40px !important;
+      margin-top: 20px !important;
   }
 
 
