@@ -1224,10 +1224,10 @@ text-align: left;
 
 
 /* Estilos de pantalla para 360px */
-@media (max-width: 431px) {
+@media (max-width: 451px) {
   
     body, html {
-        max-width: 430px; /* Limita el ancho máximo a 360px */
+        max-width: 450px; /* Limita el ancho máximo a 360px */
         overflow-x: hidden; /* Evita el desbordamiento horizontal */
         margin: 0;
         padding: 0;
